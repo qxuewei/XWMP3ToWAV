@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EA624AF1E7663E90092A130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA624AE1E7663E90092A130 /* AppDelegate.swift */; };
+		2EA624B11E7663E90092A130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA624B01E7663E90092A130 /* ViewController.swift */; };
+		2EA624B41E7663E90092A130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA624B21E7663E90092A130 /* Main.storyboard */; };
+		2EA624B61E7663E90092A130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA624B51E7663E90092A130 /* Assets.xcassets */; };
+		2EA624B91E7663E90092A130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA624B71E7663E90092A130 /* LaunchScreen.storyboard */; };
+		2EA624C41E7663E90092A130 /* XWMP3ToWAVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA624C31E7663E90092A130 /* XWMP3ToWAVTests.swift */; };
+		2EA624CF1E7663FA0092A130 /* XWMP3ToPCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA624CE1E7663FA0092A130 /* XWMP3ToPCM.swift */; };
+		2EA624D11E7664CE0092A130 /* NoGoodbye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2EA624D01E7664CE0092A130 /* NoGoodbye.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EA624C01E7663E90092A130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA624A31E7663E90092A130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA624AA1E7663E90092A130;
+			remoteInfo = XWMP3ToWAV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EA624AB1E7663E90092A130 /* XWMP3ToWAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWMP3ToWAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA624AE1E7663E90092A130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EA624B01E7663E90092A130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EA624B31E7663E90092A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA624B51E7663E90092A130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EA624B81E7663E90092A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EA624BA1E7663E90092A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA624BF1E7663E90092A130 /* XWMP3ToWAVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWMP3ToWAVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA624C31E7663E90092A130 /* XWMP3ToWAVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XWMP3ToWAVTests.swift; sourceTree = "<group>"; };
+		2EA624C51E7663E90092A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA624CE1E7663FA0092A130 /* XWMP3ToPCM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XWMP3ToPCM.swift; sourceTree = "<group>"; };
+		2EA624D01E7664CE0092A130 /* NoGoodbye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NoGoodbye.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EA624A81E7663E90092A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA624BC1E7663E90092A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EA624A21E7663E90092A130 = {
+			isa = PBXGroup;
+			children = (
+				2EA624AD1E7663E90092A130 /* XWMP3ToWAV */,
+				2EA624C21E7663E90092A130 /* XWMP3ToWAVTests */,
+				2EA624AC1E7663E90092A130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EA624AC1E7663E90092A130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EA624AB1E7663E90092A130 /* XWMP3ToWAV.app */,
+				2EA624BF1E7663E90092A130 /* XWMP3ToWAVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EA624AD1E7663E90092A130 /* XWMP3ToWAV */ = {
+			isa = PBXGroup;
+			children = (
+				2EA624CE1E7663FA0092A130 /* XWMP3ToPCM.swift */,
+				2EA624AE1E7663E90092A130 /* AppDelegate.swift */,
+				2EA624B01E7663E90092A130 /* ViewController.swift */,
+				2EA624D01E7664CE0092A130 /* NoGoodbye.mp3 */,
+				2EA624B21E7663E90092A130 /* Main.storyboard */,
+				2EA624B51E7663E90092A130 /* Assets.xcassets */,
+				2EA624B71E7663E90092A130 /* LaunchScreen.storyboard */,
+				2EA624BA1E7663E90092A130 /* Info.plist */,
+			);
+			path = XWMP3ToWAV;
+			sourceTree = "<group>";
+		};
+		2EA624C21E7663E90092A130 /* XWMP3ToWAVTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EA624C31E7663E90092A130 /* XWMP3ToWAVTests.swift */,
+				2EA624C51E7663E90092A130 /* Info.plist */,
+			);
+			path = XWMP3ToWAVTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EA624AA1E7663E90092A130 /* XWMP3ToWAV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA624C81E7663E90092A130 /* Build configuration list for PBXNativeTarget "XWMP3ToWAV" */;
+			buildPhases = (
+				2EA624A71E7663E90092A130 /* Sources */,
+				2EA624A81E7663E90092A130 /* Frameworks */,
+				2EA624A91E7663E90092A130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWMP3ToWAV;
+			productName = XWMP3ToWAV;
+			productReference = 2EA624AB1E7663E90092A130 /* XWMP3ToWAV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EA624BE1E7663E90092A130 /* XWMP3ToWAVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA624CB1E7663E90092A130 /* Build configuration list for PBXNativeTarget "XWMP3ToWAVTests" */;
+			buildPhases = (
+				2EA624BB1E7663E90092A130 /* Sources */,
+				2EA624BC1E7663E90092A130 /* Frameworks */,
+				2EA624BD1E7663E90092A130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA624C11E7663E90092A130 /* PBXTargetDependency */,
+			);
+			name = XWMP3ToWAVTests;
+			productName = XWMP3ToWAVTests;
+			productReference = 2EA624BF1E7663E90092A130 /* XWMP3ToWAVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EA624A31E7663E90092A130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "邱学伟";
+				TargetAttributes = {
+					2EA624AA1E7663E90092A130 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ZE4J77P8N2;
+						ProvisioningStyle = Automatic;
+					};
+					2EA624BE1E7663E90092A130 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ZE4J77P8N2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EA624AA1E7663E90092A130;
+					};
+				};
+			};
+			buildConfigurationList = 2EA624A61E7663E90092A130 /* Build configuration list for PBXProject "XWMP3ToWAV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EA624A21E7663E90092A130;
+			productRefGroup = 2EA624AC1E7663E90092A130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EA624AA1E7663E90092A130 /* XWMP3ToWAV */,
+				2EA624BE1E7663E90092A130 /* XWMP3ToWAVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EA624A91E7663E90092A130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA624B91E7663E90092A130 /* LaunchScreen.storyboard in Resources */,
+				2EA624D11E7664CE0092A130 /* NoGoodbye.mp3 in Resources */,
+				2EA624B61E7663E90092A130 /* Assets.xcassets in Resources */,
+				2EA624B41E7663E90092A130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA624BD1E7663E90092A130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA624A71E7663E90092A130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA624B11E7663E90092A130 /* ViewController.swift in Sources */,
+				2EA624CF1E7663FA0092A130 /* XWMP3ToPCM.swift in Sources */,
+				2EA624AF1E7663E90092A130 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA624BB1E7663E90092A130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA624C41E7663E90092A130 /* XWMP3ToWAVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EA624C11E7663E90092A130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA624AA1E7663E90092A130 /* XWMP3ToWAV */;
+			targetProxy = 2EA624C01E7663E90092A130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EA624B21E7663E90092A130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA624B31E7663E90092A130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EA624B71E7663E90092A130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA624B81E7663E90092A130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EA624C61E7663E90092A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EA624C71E7663E90092A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EA624C91E7663E90092A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZE4J77P8N2;
+				INFOPLIST_FILE = XWMP3ToWAV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuxuewei.github.XWMP3ToWAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2EA624CA1E7663E90092A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZE4J77P8N2;
+				INFOPLIST_FILE = XWMP3ToWAV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuxuewei.github.XWMP3ToWAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2EA624CC1E7663E90092A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZE4J77P8N2;
+				INFOPLIST_FILE = XWMP3ToWAVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuxuewei.github.XWMP3ToWAVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWMP3ToWAV.app/XWMP3ToWAV";
+			};
+			name = Debug;
+		};
+		2EA624CD1E7663E90092A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZE4J77P8N2;
+				INFOPLIST_FILE = XWMP3ToWAVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuxuewei.github.XWMP3ToWAVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWMP3ToWAV.app/XWMP3ToWAV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EA624A61E7663E90092A130 /* Build configuration list for PBXProject "XWMP3ToWAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA624C61E7663E90092A130 /* Debug */,
+				2EA624C71E7663E90092A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA624C81E7663E90092A130 /* Build configuration list for PBXNativeTarget "XWMP3ToWAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA624C91E7663E90092A130 /* Debug */,
+				2EA624CA1E7663E90092A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EA624CB1E7663E90092A130 /* Build configuration list for PBXNativeTarget "XWMP3ToWAVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA624CC1E7663E90092A130 /* Debug */,
+				2EA624CD1E7663E90092A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EA624A31E7663E90092A130 /* Project object */;
+}
